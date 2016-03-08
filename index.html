@@ -1,46 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Imagr : ">
+    <title>Imagr by imagr</title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Imagr</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
-
   <body>
+    <div class="wrapper">
+      <header>
+        <h1>Imagr</h1>
+        <p></p>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/grahamgilbert/imagr">View on GitHub</a>
 
-          <h1 id="project_title">Imagr</h1>
-          <h2 id="project_tagline"></h2>
+        <p class="view"><a href="https://github.com/imagr">View My GitHub Profile</a></p>
 
-        </header>
-    </div>
+      </header>
+      <section>
+        <p>Imagr is an application designed to be run from a NetInstall environment created with <a href="https://bitbucket.org/bruienne/autonbi/src">AutoNBI</a>. It is able replace tools such as DeployStudio for many organisations without the requirement of needing to be run on OS X servers.</p>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <p>Imagr is an application designed to be run from a NetInstall environment created with <a href="https://bitbucket.org/bruienne/autonbi/src">AutoNBI</a>. It is able to restore a disk image and install packages on a target volume. It is not intended to be a replacement for tools such as DeployStudio, but is able to perform some of their more commonly used functions to allow organisations to run more complicated workflows than just basic NetRestore without the need for OS X in the datacentre.</p>
+<h2>
+<a id="features-include" class="anchor" href="#features-include" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features Include</h2>
+
+<ul>
+<li>Restore ASR Images (such as those created with AutoDMG)</li>
+<li>Install packages during Imagr run and at first boot</li>
+<li>Run scripts during Imagr run and at first boot</li>
+<li>Include other workflows in your workflow, specified statically or using a script</li>
+<li>Erase and partition disks</li>
+<li>Rename the machine</li>
+<li>Protect your users from accidentally wiping their devices by specifying a password for Imagr</li>
+</ul>
 
 <p>For more information on Imagr, check out <a href="https://github.com/grahamgilbert/imagr">Imagr</a> on github.</p>
       </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
-
+    <script src="javascripts/scale.fix.js"></script>
     
-
   </body>
 </html>
